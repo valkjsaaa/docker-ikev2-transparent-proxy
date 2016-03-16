@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.3
+FROM ubuntu:15.10
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade \

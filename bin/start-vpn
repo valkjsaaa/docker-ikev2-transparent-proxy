@@ -36,4 +36,4 @@ SHARED_SECRET="123$(openssl rand -base64 32 2>/dev/null)"
 rm -f /var/run/starter.charon.pid
 
 # http://wiki.loopop.net/doku.php?id=server:vpn:strongswanonopenvz
-/usr/sbin/ipsec start --nofork
+sudo /usr/sbin/ipsec start --nofork
